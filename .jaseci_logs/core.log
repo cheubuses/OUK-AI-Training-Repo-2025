@@ -1,0 +1,7 @@
+2025-11-09 17:24:59,746 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+2025-11-09 19:23:39,108 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+2025-11-09 19:27:47,287 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+2025-11-09 21:01:12,097 - ERROR - interface_error: Internal Exception: [Errno 2] No such file or directory: 'main.jac'

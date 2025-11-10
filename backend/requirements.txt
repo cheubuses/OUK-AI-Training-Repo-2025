@@ -1,0 +1,7 @@
+jaseci
+python-dotenv
+requests
+streamlit
+gitpython
+tree_sitter
+flask
