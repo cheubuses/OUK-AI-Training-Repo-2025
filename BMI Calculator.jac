@@ -1,13 +1,13 @@
 
 
 # Function to calculate BMI
-def calculate_bmi(weight: float, height: float) -> float {
+def bmi_calc(weight: float, height: float) -> float {
     # BMI = weight(kg) / (height(m))^2
     return weight / (height * height);
 }
 
 # Function to determine BMI category
-def get_bmi_category(bmi: float) -> str {
+def categorybmi(bmi: float) -> str {
     if (bmi < 18.5) {
         return "Underweight";
     } elif (bmi < 25) {
@@ -23,12 +23,12 @@ def get_bmi_category(bmi: float) -> str {
 walker init {
     with entry {
         # Sample values (you can modify these)
-        weight = 70;    # weight in kg
-        height = 1.75;  # height in meters
+        weight = 120;    # weight in kg
+        height = 1.8;  # height in meters
         
         # Calculate BMI
-        bmi = calculate_bmi(weight, height);
-        category = get_bmi_category(bmi);
+        bmi = bmi_calc(weight, height);
+        category = categorybmi(bmi);
         
         # Report results
         report("BMI Calculator Results:");
